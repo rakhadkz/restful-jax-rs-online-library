@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="My RESTful Service:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>My RESTful Service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="My-RESTful-Service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="My RESTful Service:war exploded" />
+    </root>
+  </artifact>
+</component>
