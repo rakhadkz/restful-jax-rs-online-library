@@ -6,10 +6,8 @@ import api.interfaces.BookService;
 import api.models.Book;
 import api.models.ResponseModel;
 import api.services.BookServiceImpl;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.ws.rs.*;
-import javax.ws.rs.core.Form;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
